@@ -1,5 +1,6 @@
 .header-hero {
-  padding: 100px 0;
+  padding: 100px 0 120px 0;
+  background-image: none;
   .header-hero__title {
     font-family: var(--font-secondary);
     font-size: 4rem;
@@ -12,5 +13,13 @@
   }
   .header-hero__subtitle {
     font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 85px;
+  }
+  @media screen and (min-width: 768px) {
+    padding: 180px 0 180px 0;
+    background: url(../assets/images/header-hero-background-image.png) no-repeat
+      40.63% 55.91% / 120%;
+    height: 632px;
   }
 }

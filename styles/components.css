@@ -4,3 +4,17 @@
   margin: 0 auto;
   max-width: 1200px;
 }
+
+.button-primary {
+  padding: 20px;
+  background-color: var(--color-primary);
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--text-color-white);
+  font-weight: 700;
+  border: none;
+  transition: background-color 0.2s ease;
+  &:hover {
+    background-color: var(--text-color-primary);
+  }
+}
