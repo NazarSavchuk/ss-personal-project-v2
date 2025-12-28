@@ -1,0 +1,16 @@
+.header-hero {
+  padding: 100px 0;
+  .header-hero__title {
+    font-family: var(--font-secondary);
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 35px;
+  }
+  .header-hero__divider {
+    margin-bottom: 20px;
+    height: 32px;
+  }
+  .header-hero__subtitle {
+    font-size: 1.125rem;
+  }
+}

@@ -29,10 +29,12 @@ h6 {
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Nanum Myeongjo", serif;
   --color-primary: #f52e62;
+  --text-color-primary: #2f2f2f;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: var(--text-color-primary);
 }
 
 body.no-scroll {
